@@ -10,7 +10,6 @@ original_emoticon_NDS=YAML.load_file(yamlfile)
     new_structure[key]={english:original_emoticon_NDS[key][0],japanese:original_emoticon_NDS[key][1]}
     #binding.pry
     end
-
 end
 
 
