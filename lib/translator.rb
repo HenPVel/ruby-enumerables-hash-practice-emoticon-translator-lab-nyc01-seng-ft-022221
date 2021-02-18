@@ -14,8 +14,9 @@ original_emoticon_NDS=YAML.load_file(yamlfile)
 #         #binding.pry
 #         if !final_array[name]
 #           final_array[name]={}
-
-# original_emoticon_NDS.each_with_object({}) do |(key,value), new_structure|
+binding.pry
+ original_emoticon_NDS.each_with_object({}) do |(key,value), new_structure|
+   
 #binding.pry
 
 end
