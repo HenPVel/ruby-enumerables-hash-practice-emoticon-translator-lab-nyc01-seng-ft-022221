@@ -24,7 +24,7 @@ def get_english_meaning(yamlfile,japnz_emoticon)
       if return_value=""
         return_value="Sorry, that emoticon was not found"
       end
-    binding.pry
+    #binding.pry
   end
 return_value
 end
