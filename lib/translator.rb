@@ -29,7 +29,19 @@ def get_english_meaning(yamlfile,japnz_emoticon)
 return_value
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(yamlfile,western_emoticon)
   # code goes here
+  return_value=""
+  x=load_library(yamlfile)
 
+  x.each do |key,value|
+    if x[key][:english]==western_emoticon
+      return_value=x[key][:japanese]
+    end
+      if return_value==""
+        return_value="Sorry, that emoticon was not found"
+      end
+    #binding.pry
+  end
+return_value
 end
