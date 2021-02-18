@@ -16,7 +16,8 @@ def get_english_meaning(yamlfile,emoticon)
   # code goes here
   x=load_library(yamlfile)
 
-        #binding.pry
+
+binding.pry
 end
 
 def get_japanese_emoticon
