@@ -6,6 +6,7 @@ def load_library(yamlfile)
   # code goes here
 original_emoticon_NDS=YAML.load_file(yamlfile)
 
+original_emoticon_NDS.each_with_object({}) do |(key,value), new_structure|
 
 # final_results=data.each_with_object({}) do |(key,value), final_array|
 #     #binding.pry
@@ -15,6 +16,8 @@ original_emoticon_NDS=YAML.load_file(yamlfile)
 #         if !final_array[name]
 #           final_array[name]={}
 binding.pry
+end
+
  #original_emoticon_NDS.each_with_object({}) do |(key,value), new_structure|
 
 #binding.pry
