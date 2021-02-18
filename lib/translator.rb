@@ -13,7 +13,7 @@ original_emoticon_NDS=YAML.load_file(yamlfile)
 end
 
 
-def get_japanese_emoticon(file,emoticon)
+def get_japanese_emoticon(yamlfile,emoticon)
   # code goes here
 original_emoticon_NDS=YAML.load_file(yamlfile)
 
