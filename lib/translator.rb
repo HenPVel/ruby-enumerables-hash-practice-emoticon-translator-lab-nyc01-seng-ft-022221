@@ -12,12 +12,18 @@ original_emoticon_NDS=YAML.load_file(yamlfile)
     end
 end
 
-def get_english_meaning(yamlfile,emoticon)
+def get_english_meaning(yamlfile,japnz_emoticon)
   # code goes here
+  return_value=""
   x=load_library(yamlfile)
 
+  x.each do |key|
+    if x[key][:japanese]==japnz_emoticon
+      return_value=key
+    else return_value="Sorry, that emoticon was not found"
+    end
+  end
 
-binding.pry
 end
 
 def get_japanese_emoticon
