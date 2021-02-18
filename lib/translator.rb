@@ -25,7 +25,7 @@ original_emoticon_NDS=YAML.load_file(yamlfile)
       binding.pry
 end
 
-  
+
 
 end
 
