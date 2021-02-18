@@ -19,7 +19,7 @@ def get_english_meaning(yamlfile,emoticon)
         binding.pry
 end
 
-def get_japanese_emoticon(yamlfile,emoticon)
+def get_japanese_emoticon
   # code goes here
 
 end
