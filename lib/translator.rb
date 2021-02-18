@@ -12,14 +12,14 @@ original_emoticon_NDS=YAML.load_file(yamlfile)
     end
 end
 
+def get_english_meaning
+  # code goes here
+  load_library(yamlfile)
+
+        binding.pry
+end
 
 def get_japanese_emoticon(yamlfile,emoticon)
   # code goes here
-load_library(yamlfile)
 
-      binding.pry
-end
-
-def get_english_meaning
-  # code goes here
 end
