@@ -23,7 +23,7 @@ def get_english_meaning(yamlfile,japnz_emoticon)
     else return_value="Sorry, that emoticon was not found"
     end
   end
-
+return_value
 end
 
 def get_japanese_emoticon
